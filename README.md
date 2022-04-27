@@ -1,20 +1,20 @@
-## Real-time clock for the [M5StickC PLUS](https://shop.m5stack.com/products/m5stickc-plus-esp32-pico-mini-iot-development-kit)
+## Real-time clock for M5StickC PLUS
 
-Requirements:
+> Fork By https://iboxshare.com/prashantkamdar/M5StickPlusClock
 
-* Install the M5StickC PLUS board & libraries - https://docs.m5stack.com/en/arduino/arduino_development
+依赖:
 
-Setting the time:
+* 安装 M5StickC PLUS board 和 libraries - https://docs.m5stack.com/en/arduino/arduino_development
 
-* You will need to set the initial time for the M5StickC PLUS
-* Open the ClockM5Stick.ino file
-* Set the year, month, date, weekday, hour, minute, second in the start of the code (#define)
-* It may take upto 20-60 seconds to upload the code, so please set the time accordingly
+设置步骤:
 
-Buttons:
+* 打开 ClockM5StickCPlus.ino 文件
+* 编辑 wificonfig.h 配置你的wifi名称和密码
 
-* The main button changes the brightness of the screen
-* The side button G39, (not power button) toggles the background between black and white
+按钮:
+
+* 按钮 A 更改屏幕亮度
+* 按钮 B 切换白色背景和黑色背景
 
 ![demo](black.jpg?raw=true)
 ![demo](white.jpg?raw=true)
